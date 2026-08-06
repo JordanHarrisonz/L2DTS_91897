@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Homepage</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<!-- Navigation bar -->
+<body>
+  <div class="header_page">
+    <div class="logo">
+      <a href="homepage.html"><img src="Images/logo.jpg" alt="home logo" width="180" height="43"></a>
+    </div>
+ 
+    <div class="navbar">
+        <!-- About link with hover effect  -->
+     <a href="about.html" class="hover-trigger">
+       <img src="Images/about.jpg" class="default-img" alt="about logo" width="87" height="27">
+       <img src="Images/Aboutonhover.jpg" class="hover-img" alt="about hover logo" width="87" height="27">
+     </a>
+    <!-- shop link with hover effect -->
+     <a href="shop.html" class="hover-trigger">
+       <img src="Images/shop.jpg" class="default-img" alt="shop logo" width="87" height="27">
+       <img src="Images/Shoponhover.jpg" class="hover-img" alt="shop hover logo" width="87" height="27">
+     </a>
+     <!-- contact link with hover effect -->
+        <a href="contact.html" class="hover-trigger">
+        <img src="Images/contact.jpg" class="default-img" alt="contact logo" width="101" height="27">
+        <img src="Images/Contactonhover.jpg" class="hover-img" alt="contact hover logo" width="101" height="27">
+        </a>
+    </div>
+        <!-- Search bar -->
+      <form action="/search" method="GET" class="search-bar">
+        <button type="submit" aria-label="Search">
+          <svg viewBox="0 0 24 24" width="24" height="24">
+            <circle cx="11" cy="11" r="7" stroke="#6C84C4" stroke-width="2.5" fill="none"/>
+            <line x1="16" y1="16" x2="21" y2="21" stroke="#6C84C4" stroke-width="2.5" stroke-linecap="round"/>
+          </svg>
+       </button>
+       <div class="divider"></div>
+       <input type="text" name="q" placeholder="Type here...">
+      </form>
+    </div>
+  </div>
+
+  <div class="mainheader">
+    <h1>Welcome To Our Home Page</h1>
+    <p>This is the home page of our website.</p>
+  </div>
+
+
+
+
+</body>
+</html>

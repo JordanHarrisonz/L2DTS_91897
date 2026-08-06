@@ -1,0 +1,85 @@
+.header_page {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: white;
+  color: white;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background: #c2dffb;
+}
+
+/* THIS DOWN IS THE SEARCH BAR STYLES */
+.search-bar {
+  display: inline-flex;
+  align-items: center;
+  border: 2px solid #6C84C4; /* Matches your image border color */
+  border-radius: 50px;       /* Pill shape */
+  padding: 6px 16px;
+  background: #fff;
+  max-width: 300px;
+}
+.search-bar button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* Hover effect lets the user know the icon is clickable */
+.search-bar button:hover svg {
+  opacity: 0.7;
+}
+.search-bar .divider {
+  width: 2px;
+  height: 24px;              /* Vertical line divider from your image */
+  background-color: #6C84C4;
+  margin: 0 12px;
+}
+.search-bar input {
+  border: none;
+  outline: none;             /* Removes the ugly default input box border */
+  font-size: 16px;
+  color: #6C84C4 ;
+  width: 100%;
+}
+.search-bar input::placeholder {
+  color: #6C84C4;
+  opacity: 0.8;
+}
+
+
+.hover-trigger .hover-img {
+  display: none;
+}
+
+.hover-trigger:hover .default-img {
+  display: none;
+}
+.hover-trigger:hover .hover-img {
+  display: inline-block;
+}
+
+.mainheader {
+  text-align: center;
+  margin-top: 50px;
+}
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background: #c2dffb;
+}
+
+navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: right;
+}
