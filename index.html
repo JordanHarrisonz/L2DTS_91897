@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Homepage</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/x-icon" href="Images/logo.jpg">
+</head>
+
+<!-- Navigation bar -->
+<body>
+  <div class="header_page">
+    <div class="logo">
+      <a href="index.html"><img src="Images/logo.jpg" alt="home logo" width="180" height="43"></a>
+    </div>
+ 
+    <div class="navbar">
+      <!-- About link with hover effect -->
+     <a href="about.html" class="hover-trigger">
+       <img src="Images/about.jpg" class="default-img" alt="about logo" width="87" height="27">
+       <img src="Images/Aboutonhover.jpg" class="hover-img" alt="about hover logo" width="87" height="27">
+     </a>
+
+     <!-- Shop link with hover effect -->
+     <a href="shop.html" class="hover-trigger">
+       <img src="Images/shop.jpg" class="default-img" alt="shop logo" width="87" height="27">
+       <img src="Images/Shoponhover.jpg" class="hover-img" alt="shop hover logo" width="87" height="27">
+     </a>
+
+      <!-- Contact link with hover effect -->
+      <a href="contact.html" class="hover-trigger">
+       <img src="Images/contact.jpg" class="default-img" alt="contact logo" width="101" height="27">
+       <img src="Images/Contactonhover.jpg" class="hover-img" alt="contact hover logo" width="101" height="27">
+     </a>
+    </div>
+
+        <!-- Search bar -->
+      <form action="/search" method="GET" class="search-bar">
+        <button type="submit" aria-label="Search">
+          <svg viewBox="0 0 24 24" width="24" height="24">
+            <circle cx="11" cy="11" r="7" stroke="#6C84C4" stroke-width="2.5" fill="none"/>
+            <line x1="16" y1="16" x2="21" y2="21" stroke="#6C84C4" stroke-width="2.5" stroke-linecap="round"/>
+          </svg>
+       </button>
+       <div class="divider"></div>
+       <input type="text" name="q" placeholder="Type here...">
+      </form>
+    </div>
+  </div>
+
+  <div class="mainheader">
+    <h1>Welcoming</h1>
+    <p>This is the home page of our website.</p>
+  </div>
+
+  <hr class="blue-divider">
+
+  <!-- Flexbox container for boxes -->
+  <div class="container">
+    <!-- Box 1 -->
+    <div class="box">
+      <h3>Product 1</h3>
+      <p>Add your text context here. Flexbox will dynamically scale it.</p>
+    </div>
+
+    <!-- Box 2 -->
+    <div class="box">
+      <h3>Product 2</h3>
+      <p>More context. You can insert text, links, or images.</p>
+     </div>
+
+    <!-- Box 3 -->
+    <div class="box">
+      <h3>Product 3</h3>
+      <p>Standard paragraph text explaining features.</p>
+    </div>
+
+    <!-- Box 4 -->
+    <div class="box">
+      <img src="Images/product4.jpg" alt="Product 4" width="200" height="200">
+      <h3>Product 4</h3>
+      <p>Clean alignment ensures text won't overflow the container.</p>
+    </div>
+
+    <!-- Box 5 -->
+    <div class="box">
+      <img src="Images/product5.jpg" alt="Product 5" width="100" height="100">
+      <h3>Product 5</h3>
+      <p>Final item container perfectly spaced from the edge.</p>
+    </div>
+  </div>
+
+  <div class="view-more">
+    <a href="index.html"><img src="Images/logo.jpg" alt="home logo" width="180" height="43"></a>
+  </div>
+
+
+
+</body>
+</html>
